@@ -15,7 +15,7 @@ n being the length of the string array, if n = 0 or k > n or k <= 0 return "".
 function longestConsec(strarr, k) {
     var i, j, temp = "", result = "";
     for (i = 0; i < strarr.length; i++) {
-    	temp = strarr.slice(i, k + i).join('');
+      temp = strarr.slice(i, k + i).join('');
       
       if (temp.length > result.length) {
         result = temp;
