@@ -27,7 +27,7 @@ function longestConsec(strarr, k) {
 ```
 >其他人解法:
 
-```
+```javascript
 function longestConsec(strarr, k) {
   if (k <= 0 || k > strarr.length) {
     return '';
